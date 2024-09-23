@@ -8,3 +8,30 @@ Order Summary: Users can review their order details before placing the order.
 Responsive Design: Fully responsive layout that works on mobile, tablet, and desktop devices.
 Order Submission: (Optional) The app can be connected to a backend or API to submit orders.
 Error Handling: Handles errors such as adding invalid ingredients or connection issues during order submission.
+
+Installation
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/burger-builder-app.git
+cd burger-builder-app
+Install the dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+The app will be available at http://localhost:3000.
+
+Usage
+Build Your Burger: Users can add ingredients such as lettuce, cheese, meat, etc., to customize their burger.
+Dynamic Pricing: The app dynamically updates the total price based on the ingredients selected.
+Order Summary: Before placing the order, users can review their selected ingredients and the total price.
+Submit Order: The app can be connected to an API or backend to handle order submission. (Optional)
